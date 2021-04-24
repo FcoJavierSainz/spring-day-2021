@@ -1,0 +1,9 @@
+app:
+  scriptsFolder: transactions
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: app
+  redis:
+    url: ${REDIS_URI:redis://localhost:6379}
